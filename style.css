@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gabarito', cursive;
+}
+body{
+  background-color: rgb(229, 231, 245);
+ 
+}
+nav{
+    height:52.5px;
+    /* position: sticky;
+    top: 0;
+    z-index: 100; */
+    color: white;
+}
+nav ul{
+   background-color:rgb(16, 16, 43);
+   display: flex;
+   text-decoration: none;
+   list-style-type: none;
+   height: 52.5px;
+   align-items: center;
+}
+.brand img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid rgb(14, 14, 144);
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    padding: 8px;
+}
+.brand span{
+    padding-left: 5px;
+    padding-right: 17px;
+}
+nav ul li{
+    padding-right: 25px;
+}
+.container{
+    min-height: 90vh;
+    background-color: rgb(19, 19, 48);
+    margin: 23px auto;
+    width: 60%;
+    padding: 20px;
+    color: white;
+    display: flex;
+    background-image: url(images/cover\ ganpati.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.songlist{
+    height: 50vh;
+    width: 60%;
+    position: relative;
+    left: 300px;
+}
+.songcollection{
+    margin-top: 20px;
+}
+.song{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aliceblue; */
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin: 5px ;
+    /* margin-right: 10px; */
+}
+.song img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.bottom{
+    background-color: rgb(16, 16, 43);
+    position: sticky;
+    bottom: 0px;
+    height: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    width: 80%;
+    padding: 3px;
+    border-top:3px solid rgb(229, 231, 245);
+}
+.range input{
+    width: 70vw;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.icons{
+    margin: 5px;
+}
+.icons i{
+    padding: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.timerPlay{
+    margin-right: 15px;
+}
+.timerPlay i{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.gifName{
+  position: absolute;
+  right: 600px;
+  display: flex;
+  align-items: center;
+  margin-top: 42px;
+}
+.gifName img{
+    width: 200px;
+    height: 58px;
+    margin-right: 10px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
